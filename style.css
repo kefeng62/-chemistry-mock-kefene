@@ -5,7 +5,7 @@ body{margin:0;color:var(--text);background:var(--bg);font-family:-apple-system,B
 .site-header{padding:58px 0 52px;background:linear-gradient(135deg,#111827,#1e293b 58%,#334155);color:#fff}
 .eyebrow{margin:0 0 8px;font-size:.78rem;font-weight:800;letter-spacing:.14em;color:#93c5fd}
 h1{margin:0;font-size:clamp(2rem,5vw,3.5rem);letter-spacing:.02em}
-.lead{margin:10px 0 0;color:#cbd5e1}
+.lead{margin:10px 0 0;color:#cbd5e1}.writer{margin:12px 0 0;color:#e2e8f0;font-size:.9rem}.writer a{color:#bfdbfe;text-decoration:none}.writer a:hover{text-decoration:underline}
 main{padding:38px 0 70px}.category{margin-bottom:48px}
 .category-title{display:flex;align-items:center;gap:16px;margin-bottom:18px}
 .category-number{display:grid;place-items:center;width:48px;height:48px;flex:0 0 48px;border-radius:14px;background:#dbeafe;color:#1d4ed8;font-size:.82rem;font-weight:900}
