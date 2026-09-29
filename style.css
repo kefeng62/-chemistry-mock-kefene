@@ -1,0 +1,23 @@
+*{box-sizing:border-box}
+:root{--bg:#f5f7fb;--card:#fff;--text:#111827;--muted:#64748b;--line:#e2e8f0}
+body{margin:0;color:var(--text);background:var(--bg);font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",Meiryo,sans-serif;line-height:1.65}
+.wrap{width:min(1120px,calc(100% - 32px));margin:0 auto}
+.site-header{padding:58px 0 52px;background:linear-gradient(135deg,#111827,#1e293b 58%,#334155);color:#fff}
+.eyebrow{margin:0 0 8px;font-size:.78rem;font-weight:800;letter-spacing:.14em;color:#93c5fd}
+h1{margin:0;font-size:clamp(2rem,5vw,3.5rem);letter-spacing:.02em}
+.lead{margin:10px 0 0;color:#cbd5e1}
+main{padding:38px 0 70px}.category{margin-bottom:48px}
+.category-title{display:flex;align-items:center;gap:16px;margin-bottom:18px}
+.category-number{display:grid;place-items:center;width:48px;height:48px;flex:0 0 48px;border-radius:14px;background:#dbeafe;color:#1d4ed8;font-size:.82rem;font-weight:900}
+.category-title h2{margin:0;font-size:1.55rem}.category-title p{margin:2px 0 0;color:var(--muted);font-size:.9rem}
+.mock-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.mock-card{display:block;overflow:hidden;color:inherit;text-decoration:none;background:var(--card);border:1px solid var(--line);border-radius:18px;box-shadow:0 5px 18px rgba(15,23,42,.06);transition:.18s}
+.mock-card:hover{transform:translateY(-4px);border-color:#93c5fd;box-shadow:0 12px 28px rgba(15,23,42,.12)}
+.thumb-wrap{aspect-ratio:16/10;overflow:hidden;background:#fff;border-bottom:1px solid var(--line)}
+.thumb-wrap img{display:block;width:100%;height:100%;object-fit:cover}
+.mock-info{padding:16px 17px 18px}.mock-info h3{margin:0;font-size:1.05rem;line-height:1.45}
+.date{margin:7px 0 0;color:var(--muted);font-size:.86rem}
+.empty-card{padding:22px;border:1px dashed #cbd5e1;border-radius:16px;color:#94a3b8;background:rgba(255,255,255,.6)}
+.site-footer{padding:24px 0;border-top:1px solid var(--line);color:var(--muted);background:#fff;font-size:.85rem}
+@media(max-width:800px){.mock-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.wrap{width:min(100% - 22px,1120px)}.site-header{padding:42px 0 38px}main{padding-top:28px}.category{margin-bottom:38px}.mock-grid{grid-template-columns:1fr}.category-title h2{font-size:1.3rem}}
